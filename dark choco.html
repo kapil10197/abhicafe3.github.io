@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AbhiCafe</title>
+	<meta name= viewport content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/dark choco.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img src="images/logo.png" class="logo">
+				
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+                    <li><a href="index.html"><b>HOME</b></a></li>
+					<li><a href="#"><b>CAKE DELIVERY</b></a></li>
+					<li><a href="#"><b>HOW TO ORDER</b></a></li>
+					<li><a href="#"><b>TRACK YOUR ORDER</b></a></li>
+					<li><a href="more.html"><b>CHECK MORE</b> </a></li>
+					<li><a href="images/text.html"><b>SIGN UP</b></a></li>
+				</ul>
+				
+				<ul class="main-nav animated slideInDown">
+				<img src="images/dimg1.jpg" class="pic btn ">
+				<img src="images/dimg2.jpg" class="pic btn">
+				<img src="images/dimg3.jpg" class="pic btn">
+			    </ul>
+			    
+				<a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+			<a href="#" class="btn btn-nav  animated slideInUp"> <b>click to order</b></a>
+			<a href="more.html" class="btn btn-nav  animated slideInUp"><b> show me more</b></a>
+		</div>
+	</header>
+
+	<script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+
+</body>
+</html>
